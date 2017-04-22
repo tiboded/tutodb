@@ -11,7 +11,9 @@
 			<input type='submit' value='Post comment'>
 		</form>
 		{% for comment in comments %}
-			{{ comment.content }}
+			<div>
+				{{ comment.content }}
+			</div>
 		{% endfor %}
 	</body>
 </html>
